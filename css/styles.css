@@ -1,0 +1,408 @@
+body {
+    font-family: Montserrat, serif;
+    font-size: 16px;
+}
+a {
+    color: #c41230;
+}
+a:hover {
+    text-decoration: underline;
+    color: #c41230;
+}
+.logo {
+    width: 410px;
+    height: 70px;
+    margin-top: 26px;
+    -webkit-background-size: 317px 71px;
+    -o-background-size: 317px 71px;
+    background-size: 317px 71px;
+    background-image: url("../assets/images/logo-bg.png");
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+}
+.logo p {
+    font-family: Montserrat, serif;
+    text-transform: uppercase;
+    color: #004b8d;
+    font-size: 32px;
+    width: 232px;
+    margin-left: 140px;
+    line-height: 36px;
+}
+#logo:hover {
+    text-decoration: none;
+}
+section.header-section {
+    border-top-width: 0;
+    border-top-style: none;
+    border-top-color: #c3112f;
+    border-bottom-width: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: #c3112f;
+    height: 140px;
+}
+.logo-span {
+    color: #c41230;
+}
+.logo-p-span {
+    font-size: 50px;
+}
+.phone {
+    text-transform: uppercase;
+    font-size: 1.6em;
+    color: #004b8d;
+    margin-top: 30px;
+    text-align: right;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+section.main-section {
+    height: auto;
+    padding: 30px 0;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url(../assets/images/house-background.jpg);
+    border-bottom-width: 32px;
+    border-bottom-style: solid;
+    border-bottom-color: #004b8d;
+}
+.home-cta {
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, .85098);
+    position: relative;
+    height: auto;
+    width: 846px;
+}
+.home-cta h1,
+.home-cta h2,
+.home-cta h3 {
+    color: #004b8d;
+    text-align: center;
+}
+.home-cta h1 {
+    font-size: 3.5em;
+    width: auto;
+}
+.home-cta h2 {
+    font-size: 2em;
+}
+.home-cta h3 {
+    font-size: 26px;
+    padding: 16px 30px 20px;
+    margin: 18px auto 0;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #c41230;
+    width: 552px;
+}
+.home-cta h1 span {
+    color: #c41230;
+    width: auto;
+}
+.home-cta h1,
+.home-cta h2 {
+    text-transform: uppercase;
+}
+.coupon {
+    background-color: rgba(196, 18, 48, .8);
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: auto;
+}
+.coupon p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    margin: 0;
+    line-height: 28px;
+    word-spacing: 4px;
+}
+.coupon p span {
+    font-size: .8em;
+    font-weight: 700;
+}
+.coupon .discount {
+    font-size: 5.5em;
+    line-height: 78px;
+    padding-top: 8px;
+}
+.main-section .form-wrap {
+    margin: 20px auto 0;
+    width: 575px;
+}
+.main-section .control-label {
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 4px;
+}
+.main-section form input {
+    width: 398px;
+    height: 42px;
+}
+.form-group .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.form-group .btn.btn-default.btn-lg {
+    background-color: #c41230;
+    color: #fff;
+    width: 256px;
+    height: 62px;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form-group .red-btn {
+    text-align: center;
+    margin-left: 16px;
+}
+button.btn.btn-default.btn-lg:hover {
+    background-color: #A22929;
+}
+.form-error {
+    text-align: center;
+    color: #A22929;
+}
+.features-bar {
+    background-color: rgba(0, 75, 141, .85098);
+    bottom: -26px;
+    text-align: center;
+    color: #fff;
+    height: auto;
+    margin: 30px 5px 0;
+}
+.features-bar p {
+    display: inline-block;
+    margin: 16px 24px 0;
+    padding-top: 0;
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 10px;
+    padding-bottom: 10px;
+}
+.features-bar p i {
+    padding-right: 8px;
+}
+.service-info h2 {
+    color: #c41230;
+    font-size: 2.4em;
+    margin-top: 40px;
+}
+.service-info h3 {
+    color: #0e4c8c;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.service-info p {
+    font-size: 16px;
+    color: #212121;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.service-info p.p2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+.service-info p.p1 {
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+}
+.service-info ul {
+    list-style-image: url(../assets/images/sm-paintbrush.png);
+}
+.service-info ul li {
+    color: #c41230;
+    padding: 4px 2px;
+}
+footer {
+    background-color: #c41230;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #004b8d;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 25px;
+}
+footer p {
+    display: inline-block;
+    color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+footer a {
+    display: inline-block;
+    color: #fff;
+    line-height: 34px;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+@media only screen and (max-width: 1024px) and (min-width: 568px) {
+    .home-cta h1 {
+        font-size: 3.5em;
+    }
+    .form-group .red-btn {
+        text-align: center;
+        margin-left: 28px;
+    }
+}
+@media only screen and (max-width: 852px) and (min-width: 568px) {
+    .home-cta {
+        width: auto;
+    }
+    .home-cta h1,
+    .home-cta h2 {
+        font-size: 2em;
+    }
+    .form-group .red-btn {
+        text-align: center;
+        margin-left: 18px;
+    }
+    .home-cta h1 {
+        font-size: 3em;
+    }
+}
+@media only screen and (max-width: 768px) {
+    section.header-section {
+        height: auto;
+    }
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .phone {
+        text-align: center;
+    }
+    .home-cta h1 {
+        font-size: 2.4em;
+        width: auto;
+    }
+    .home-cta h2 {
+        font-size: 1.4em;
+    }
+    .home-cta h3 {
+        font-size: 1em;
+        width: 380px;
+    }
+    .main-section .form-wrap {
+        width: 564px;
+        margin: 0 auto;
+        padding: 20px 0 0;
+    }
+    .main-section form input {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 568px) {
+    section.header-section {
+        height: auto;
+    }
+    .logo {
+        width: 260px;
+        height: auto;
+        margin: 20px auto 0;
+        -webkit-background-size: 200px auto;
+        -o-background-size: 200px auto;
+        background-size: 200px auto;
+        background-position: 0px 2px;
+    }
+    .logo p {
+        margin-left: 88px;
+        width: 166px;
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 8px;
+    }
+    .logo-p-span {
+        font-size: 32px;
+    }
+    .phone {
+        width: 206px;
+        font-size: 1.2em;
+    }
+    section.main-section {
+        height: auto;
+        padding: 30px 0;
+    }
+    .home-cta {
+        height: auto;
+        width: auto;
+    }
+    .home-cta h1 {
+        font-size: 2.2em;
+        width: auto;
+        padding: 0 20px;
+    }
+    .home-cta h2 {
+        font-size: 1.3em;
+    }
+    .home-cta h3 {
+        font-size: 1em;
+        width: 380px;
+    }
+    .main-section .form-wrap {
+        width: auto;
+    }
+    form .form-group {
+        width: auto;
+        padding: 0 20px;
+    }
+    .main-section form input {
+        width: 98%;
+    }
+    .main-section {
+        height: auto;
+    }
+    .form-group .control-label {
+        padding-left: 2px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .logo {
+        width: 260px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .phone {
+        margin: 25px auto 20px;
+        text-align: center;
+    }
+    .home-cta h1 {
+        font-size: 2em;
+    }
+    .home-cta h3 {
+        width: 280px;
+    }
+    .main-section form input {
+        width: 275px;
+    }
+    .form-group .control-label {
+        padding-left: 2px;
+    }
+    .coupon p span {
+        font-size: .6em;
+    }
+    .form-group .red-btn {
+        text-align: left;
+        margin-left: 0;
+        width: 275px;
+    }
+}
